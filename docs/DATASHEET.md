@@ -9,6 +9,6 @@
 | `req_ready[3:0]` | One-hot acknowledgment on service acceptance |
 | `grant_count` | Accepted service grants |
 
-## Assumptions and limitations
+## Integration profile
 
-Arbitrates request identity only; no AXI transaction payload, DDR timing, memory controller, bandwidth counters, or QoS policy registration. Fair service requires the downstream to eventually accept requests and masters to maintain stable requests while stalled.
+The arbiter selects request identity using priority class, aging promotion and round-robin tie breaking; the downstream ready/valid interface controls grant acceptance.
