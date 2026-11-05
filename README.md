@@ -1,4 +1,4 @@
-# MemQoS-Arbiter4
+# Four-client memory QoS arbiter
 
 Four-requester memory-service arbiter with priority and starvation-aging control.
 
