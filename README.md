@@ -13,6 +13,6 @@ Four-requester memory-service arbiter with priority and starvation-aging control
 
 Run `make test` and `make synth`. Interface, design, test procedure and measurements appear under `docs/`.
 
-This is an independently testable RTL control primitive with an explicit scope boundary; device qualification is separate.
+**Architecture:** Four-requester memory arbitration with priority classes, waiting-age promotion and round-robin tie breaking.
 
 Project owner: Sundaram S S.

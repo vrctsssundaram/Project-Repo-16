@@ -6,5 +6,3 @@
 4. Match the tested commit to the CI workflow and `docs/RESULTS.md`.
 
 Directed tests: priority selection, stable grant while sink stalls and higher-priority work arrives, age-based starvation avoidance and count accuracy.
-
-Device timing, power, CDC and physical implementation require separate qualification.
